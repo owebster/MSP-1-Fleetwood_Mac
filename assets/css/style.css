@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap&family=Josefin+Slab:wght@100;300;400;600;700&family=Marck+Script&display=swap');
 
+.fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.5s;
+    }
+    
+    @keyframes fadeInOpacity {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+ }
+
 /* ------------------------- Colours */
         /* Colour of latest album rgb(255, 252, 234); */
 body {
@@ -7,7 +24,7 @@ body {
 }
 
 /* ------------------------- Main logo */
-.main-logo {
+.main-logo h1{
     font-family: 'Monsieur La Doulaise', cursive, sans-serif;
     color: rgba(0,0,0,.9);
     font-size: 5em;
@@ -34,7 +51,7 @@ body {
 }
 
 /* ------------------------- Hover States */
-.logo-link:hover{
+.main-logo:hover{
     text-decoration: none;
 }
 
