@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;300;400;600;700&family=Marck+Script&display=swap&family=Monsieur+La+Doulaise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap&family=Josefin+Slab:wght@100;300;400;600;700&family=Marck+Script&display=swap');
 
 /* ------------------------- Colours */
         /* Colour of latest album rgb(255, 252, 234); */
@@ -7,24 +6,22 @@ body {
     background-color: #fffcea;
 }
 
-.navbar-light .navbar-brand {
-    color: rgba(0,0,0,.9);
-}
-
 /* ------------------------- Main logo */
 .main-logo {
-    font-family: 'Monsieur La Doulaise', sans-serif, Arial;
+    font-family: 'Monsieur La Doulaise', cursive, sans-serif;
     color: rgba(0,0,0,.9);
     font-size: 5em;
     margin-top: 0.3em;
+    margin-bottom: -0.1em;
     text-align: center;
     position: relative;
 }
-/* ------------------------- title bar */
 
+/* ------------------------- title bar */
 .navbar-brand{
-    font-family: 'Monsieur La Doulaise', sans-serif, Arial;
+    font-family: 'Monsieur La Doulaise', cursive, sans-serif;
 }
+
 .navbar {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 15px;
@@ -37,6 +34,8 @@ body {
 }
 
 /* ------------------------- Hover States */
-
+.logo-link:hover{
+    text-decoration: none;
+}
 
 /* ------------------------- Images */
