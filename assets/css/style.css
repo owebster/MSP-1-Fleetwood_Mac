@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap&family=Josefin+Slab:wght@100;300;400;600;700&family=Marck+Script&display=swap');
 
+/* ------------------------- Fade in for body. To offer a nice laoding transition and to allow larger fonts to load if needed */
 .fade-in {
     opacity: 1;
     animation-name: fadeInOpacity;
@@ -18,17 +19,33 @@
  }
 
 /* ------------------------- Colours */
-        /* Colour of latest album rgb(255, 252, 234); */
+        /* Colour of rumours album #fffcea */ /* colour of 2018 album #ECCB82 */
 body {
     background-color: #fffcea;
 }
 
-/* ------------------------- Main logo */
+.main-logo h1 {
+    background-color: #ECCB82;
+}
+
+.navbar {
+    background-color: #ECCB82;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carousel-indicators {
+    filter: invert(100%);
+}
+/* ------------------------- Main logo large */
 .main-logo h1{
     font-family: 'Monsieur La Doulaise', cursive, sans-serif;
-    color: rgba(0,0,0,.9);
+    color: rgba(0,0,0,.9); /* Contrasting colour to background image */
     font-size: 5em;
-    margin-top: 0.3em;
+    padding-top: 0.2em;
     margin-bottom: -0.1em;
     text-align: center;
     position: relative;
@@ -37,18 +54,20 @@ body {
 /* ------------------------- title bar */
 .navbar-brand{
     font-family: 'Monsieur La Doulaise', cursive, sans-serif;
+    font-size: 2em;
 }
 
 .navbar {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 15px;
-    /*background-color: #000315;*/
-    
 }
 
 .shadow-lg {
     box-shadow: 0 1rem 1rem rgba(0,0,0,.175)!important;
 }
+
+/* ------------------------- Body */
+
 
 /* ------------------------- Hover States */
 .main-logo:hover{
@@ -56,3 +75,5 @@ body {
 }
 
 /* ------------------------- Images */
+
+/* ------------------------- Footer */
