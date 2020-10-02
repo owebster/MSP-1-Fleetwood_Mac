@@ -32,6 +32,11 @@ body {
     background-color: #ECCB82;
 }
 
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: #ECCB82;
+}
+
 .carousel-control-next,
 .carousel-control-prev {
     filter: invert(100%);
@@ -44,8 +49,8 @@ body {
 .main-logo h1{
     font-family: 'Monsieur La Doulaise', cursive, sans-serif;
     color: rgba(0,0,0,.9); /* Contrasting colour to background image */
-    font-size: 5em;
-    padding-top: 0.2em;
+    font-size: 3.5em;
+    padding-top: 0.4em;
     margin-bottom: -0.1em;
     text-align: center;
     position: relative;
@@ -60,6 +65,8 @@ body {
 .navbar {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 15px;
+    border-bottom-left-radius: 12%;
+    border-bottom-right-radius: 12%;
 }
 
 .shadow-lg {
@@ -67,7 +74,6 @@ body {
 }
 
 /* ------------------------- Body */
-
 
 /* ------------------------- Hover States */
 .main-logo:hover{

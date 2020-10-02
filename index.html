@@ -21,96 +21,129 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="justify-content-center collapse navbar-collapse" id="navbarNav">                  <ul class="navbar-nav ">
-                <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Latest News</a>  
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Socials</a>
-                </li>
+            <div class="justify-content-center collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Latest News</a>  
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Socials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
                 </ul>
             </div>
         </nav>
         
-        <article class="container">
+        <article>
             <section>
-                <div class="row">
-                    <div class="col"> <!--Hero images carousel-->
-                        <div id="highlighted-albums" class="carousel slide carousel-fade" data-interval="false">
-                            <ol class="carousel-indicators">
-                                <li data-target="#highlighted-albums" data-touch="true" data-slide-to="0" class="active"></li>
-                                <li data-target="#highlighted-albums" data-touch="true" data-slide-to="1"></li>
-                                <li data-target="#highlighted-albums" data-touch="true" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="assets/images/rumours.jpg" class="d-block w-100" alt="Album artwork for the album Rumours">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col d-lg-none d-xl-none"> <!--Hero images carousel-->
+                            <div id="highlighted-albums" class="carousel slide carousel-fade" data-interval="false">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#highlighted-albums" data-touch="true" data-slide-to="0" class="active"></li>
+                                    <li data-target="#highlighted-albums" data-touch="true" data-slide-to="1"></li>
+                                    <li data-target="#highlighted-albums" data-touch="true" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+
+                                    <div class="carousel-item active">
+                                        <img src="assets/images/dontstop.jpg" class="d-block w-100" alt="Album artwork for the album Don't Stop">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="assets/images/rumours.jpeg" class="d-block w-100" alt="Album artwork for the album Rumours">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="assets/images/tusk.jpg" class="d-block w-100" alt="Album artwork for the album Tusk">
+                                    </div>
                                 </div>
-            
-                                <div class="carousel-item">
-                                    <img src="assets/images/dontstop.jpg" class="d-block w-100" alt="Album artwork for the album Don't Stop">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="assets/images/blackmagic.jpg" class="d-block w-100" alt="Album artwork for the album Black Magic">
-                                </div>
+                                <a class="carousel-control-prev" href="#highlighted-albums" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#highlighted-albums" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
                             </div>
-                            <a class="carousel-control-prev" href="#highlighted-albums" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#highlighted-albums" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                    </div> 
+                        </div> 
+                    </div>
                 </div>
             </section>
-            <hr>
+
+            <!--"Listen on" media tags-------->
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <p>Apple Music, Spotify, Amazon Music, Youtube</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
 
             <!--Tour Dates section-------->
-            <section>
-                <div class="row">
-                    <div class="col">
-                        <h2>Latest News</h2>
-                        <p>Information around tour dates, upcoming tours and past tours</p>
+            <div class="container">
+                <section>
+                    <div class="row">
+                        <div class="col">
+                            <h2>Latest News</h2>
+                            <p>Information around tour dates, upcoming tours and past tours</p>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <hr>
+                </section>
+                <hr>
 
-            <!--Gallery section----------->
-            <section>
-                <div class="row">
-                    <div class="col">
-                        <h2>Gallery</h2>
-                        <p>Photos from previous tours</p>
+                <!--Gallery section----------->
+                <section>
+                    <div class="row">
+                        <div class="col">
+                            <h2>Gallery</h2>
+                            <p>Photos from previous tours</p>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <hr>
+                </section>
+                <hr>
 
-            <!--Socials section----------->
-            <section>
-                <div class="row">
-                    <div class="col">
-                        <h2>Social Media</h2>
-                        <p>tweet and latest instagram feeds</p> 
+                <!--Socials section----------->
+                <section>
+                    <div class="row">
+                        <div class="col">
+                            <h2>Social Media</h2>
+                            <p>tweet and latest instagram feeds</p> 
+                        </div>
+                    </div>  
+                </section>
+                <hr>
+
+                <!--Founding Members---------->
+                <section>
+                    <div class="row">
+                        <div class="col">
+                            <h2>About</h2>
+                            <p>Short description of the band</p>
+                        </div>
                     </div>
-                </div>  
-            </section>
-            <hr>
+                </section>
+                <hr>
 
-            <!--Footer section----------->
-            <section class="footer sticky-bottom">
-                Copyright information as well as quick link social buttons (twitter, instagram, facebook)
-            </section>
+                <!--Footer section----------->
+                <section class="footer sticky-bottom">
+                    Copyright information as well as quick link social buttons (twitter, instagram, facebook)
+                </section>
+            </div>
     </article>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
