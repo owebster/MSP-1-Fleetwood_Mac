@@ -106,6 +106,18 @@ body {
         max-width: 2.5em;
         height: auto;
       }
+
+    .list-inline li{
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 1%;
+        padding-bottom: 5%;
+    }
+
+    li.list-inline-item.youtube-icon {
+        padding-bottom: 5.80%;
+    }
+
 /* ------------------------- Hover States */
 .main-logo:hover{
     text-decoration: none;
