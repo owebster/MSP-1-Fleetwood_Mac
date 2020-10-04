@@ -1,6 +1,9 @@
 # MSP-1
- First Milestone Project for Code Institute 
+ For my first Milestone project, I have created a website for the band Fleetwood Mac
 ------------------------------------------- 
+
+## The idea
+
 Credits
 - Bootstrap
 - https://www.colortools.net/color_complementary.html for finding contrasting oppoisit colours
