@@ -17,12 +17,12 @@
         </header>
         <!-- Title bar -->
         <nav class="navbar navbar-expand-lg shadow-lg p-3 mb-5 navbar-light sticky-top">
-            <a class="navbar-brand d-lg-none" href="index.html" style="color: #e1c281;">Fleetwood Mac</a> <!--Logo for smaller screens-->
+            <a class="navbar-brand d-lg-none" href="index.html">Fleetwood Mac</a> <!--Logo for smaller screens-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="justify-content-center collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
@@ -43,11 +43,10 @@
         </nav>
         
         <article>
-            <!--Hero images carousel for mobile & tablet devices-->
             <section>
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col d-lg-none d-xl-none">
+                        <div class="col d-lg-none d-xl-none"> <!--Hero images carousel-->
                             <div id="highlighted-albums" class="carousel slide carousel-fade" data-interval="false">
                                 <ol class="carousel-indicators">
                                     <li data-target="#highlighted-albums" data-touch="true" data-slide-to="0" class="active"></li>
@@ -81,52 +80,15 @@
                     </div>
                 </div>
             </section>
-            <!--Hero images for desktop/large screen devices (may change to carousel based later)-->
-            <section>
-                <div class="container d-none d-lg-block">
-                    <div class="row">    
-                        <div class="col-4">
-                            <img src="assets/images/rumours.jpeg" class="d-block w-100" alt="Album artwork for the album Rumours">
-                        </div>
-                            
-                        <div class="col-4">
-                            <img src="assets/images/dontstop.jpg" class="d-block w-100" alt="Album artwork for the album Don't Stop">
-                        </div>
 
-                        <div class="col-4">
-                            <img src="assets/images/tusk.jpg" class="d-block w-100" alt="Album artwork for the album Tusk">
-                        </div>
-                    </div>
-                </div>
-            </section>
             <!--"Listen on" media tags-------->
             <section>
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 stream-on"> <!-- Apple Music, iTunes, Spotify, Amazon Music, Youtube, Tidal-->
-                            <p> Stream or Purchase on</p>
+                        <div class="col">
+                            <p>Apple Music, Spotify, Amazon Music, Youtube</p>
                         </div>
                     </div>
-                    <ul class="list-inline listening-options">
-                        <li class="list-inline-item">
-                            Apple Music
-                        </li>
-                        <li class="list-inline-item">
-                            iTunes
-                        </li>
-                        <li class="list-inline-item">
-                            Spotify
-                        </li>
-                        <li class="list-inline-item">
-                            Amazon Music
-                        </li>
-                        <li class="list-inline-item">
-                            Youtube
-                        </li>
-                        <li class="list-inline-item">
-                            Tidal
-                        </li>
-                    </ul>
                 </div>
             </section>
             
