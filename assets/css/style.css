@@ -60,7 +60,7 @@ body {
 /* ------------------------- Main logo large */
 .main-logo h1{
     font-family: 'Monsieur La Doulaise', cursive, sans-serif;
-    font-size: 4em;
+    font-size: 3.5em;
     padding-top: 0.4em;
     margin-bottom: -0.1em;
     text-align: center;
@@ -100,6 +100,12 @@ body {
     .listening-options {
         text-align: center;
     }
+
+    li img {
+        display: block;
+        max-width: 2.5em;
+        height: auto;
+      }
 /* ------------------------- Hover States */
 .main-logo:hover{
     text-decoration: none;
