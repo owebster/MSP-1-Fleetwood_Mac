@@ -18,6 +18,10 @@
     }
  }
 
+ html { /* for smooth scrolling to section */
+    scroll-behavior: smooth;
+ }
+
 /* ------------------------- Colours */
         /* Colour of rumours album #fffcea */
         /* colour of 2018 album #ECCB82 */ 
@@ -47,6 +51,19 @@ body {
 
 .navbar .navbar-toggler { /* Nav bar button for collasped view*/
     border: 0;
+}
+
+.curls{
+    color: #8E191C;
+}
+
+.latest-news{
+    color: #8E191C;
+}
+
+.tour{
+    color: #fffcea;
+    background-color: #8E191C;
 }
 
 .carousel-control-next,
@@ -89,7 +106,14 @@ body {
     padding-left: 3%;
 }
 
+.mb-5, .my-5 {
+    margin-bottom: 2rem!important;
+}
+
 /* ------------------------- Body */
+.large-carousel{
+    padding-top: 0;
+}
     /* media buttons to link to appropriate site */
     .stream-on {
         text-align: center;
@@ -116,6 +140,29 @@ body {
 
     li.list-inline-item.youtube-icon {
         padding-bottom: 5.80%;
+    }
+
+    /* Tour dates / latest news section */
+    .curls{
+        font-family: 'Monsieur La Doulaise', cursive, sans-serif;
+        font-size: 3em;
+    }
+
+    .latest-news {
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+        padding-bottom: 2%;
+    }
+
+    .tour{
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 8%;
+        border-radius: 25px;
+        -moz-box-shadow:    inset 0 0 15px #000000;
+        -webkit-box-shadow: inset 0 0 15px #000000;
+        box-shadow:         inset 0 0 15px #000000;
     }
 
 /* ------------------------- Hover States */

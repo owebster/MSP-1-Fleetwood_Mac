@@ -42,3 +42,9 @@ These are the languages, framework and resources that I used to build this websi
 - https://www.colortools.net/color_complementary.html for finding contrasting oppoisit colours
 - tutor support from Code institute
 - stackoverflow: "https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel"
+- w3schools.com
+- https://css-tricks.com/snippets/css/css-box-shadow/ : ".shadow {
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}"
