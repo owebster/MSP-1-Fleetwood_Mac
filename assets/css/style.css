@@ -183,9 +183,18 @@ div h4 {
         text-align: right;
     }
 
+    div h3 {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 2rem;
+    }
+
     div h4 {
         font-family: Helvetica, Arial, sans-serif;
-        font-size: 1.5em;
+        font-size: 1.5rem;
+    }
+
+    li p {
+        font-size: 0.85rem;
     }
     
     
