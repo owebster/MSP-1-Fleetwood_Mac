@@ -44,7 +44,7 @@
         
         <article>
             <section>
-                <div class="container-fluid small-carousel">
+                <div class="container small-carousel">
                     <div class="row">
                         <div class="col d-lg-none d-xl-none"> <!--Hero images carousel for small, medium screen-->
                             <div id="highlighted-albums" class="carousel slide carousel-fade" data-interval="false">
@@ -79,12 +79,12 @@
                         </div> 
                     </div>
                 </div>
-            </section>
-            <!--Hero images for desktop/large screen devices (may change to carousel based later)-->
+            </section>   
+            <!--Hero carousel for desktop/large screen devices-->
             <section>
                 <div class="container large-carousel">
                     <div class="row">
-                        <div class="col d-none d-lg-block">
+                        <div class="col d-none d-lg-block d-xl-block">
                             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -142,23 +142,28 @@
                         </ul>
                 </div>
             </section>
-        
-            <!--Tour Dates section-------->
-            <div class="container">
-                <section>
-                    <div class="row latest-news">
+        </article>
+        <!--Tour Dates section-------->
+        <article>
+            <section>
+                <div class="container">
+                    <div class="row tour-dates">
                         <div class="col-12">
-                            <span class="curls">-</span>
-                            <h2>Latest News</h2>
-                            <span class="curls">-</span>
+                            <p class="curls">-</p>
+                            <h2>Tour dates</h2>
+                            <p class="curls">-</p>
                         </div>
                     </div>
+                </div>
+            </section>
+                <!--Tour list on small/medium screen-->
+            <section>
+                <div class="container tour-section">
                     <div class="row">
-                        <div class="col-12 tour">
-                            <h3>2022 Tour</h3>
+                        <div class="col-12 tour d-lg-none d-xl-none">
+                            <h3>2022</h3>
                             <div class="row">
-                                <!--Tour list on big screen-->
-                                <div class="col-6 d-none d-lg-block">
+                                <div class="col-12">
                                     <h4>America</h4>
                                     <div class="row justify-content-center">
                                         <div class="col-4">
@@ -167,7 +172,7 @@
                                                     <p>New York</p>
                                                 </li>
                                                 <li>
-                                                    <p>Los Angeles</p>
+                                                    <p>San Jose</p>
                                                 </li>
                                                 <li>
                                                     <p>Houston</p>
@@ -201,7 +206,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-6 d-none d-lg-block">
+                                <div class="col-12">
                                     <h4>Europe</h4>
                                     <div class="row justify-content-center">
                                         <div class="col-4">
@@ -243,140 +248,164 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </div>
-                                <!--table for smaller display screens-->
-                                <div class="col-12 d-lg-none d-xl-none">
-                                    <h4>America</h4>
-                                    <div class="row justify-content-center">
-                                        <div class="col-6">
-                                            <ul class="list-unstyled area-list">
-                                                <li>
-                                                    <p>New York</p>
-                                                </li>
-                                                <li>
-                                                    <p>Los Angeles</p>
-                                                </li>
-                                                <li>
-                                                    <p>Houston</p>
-                                                </li>
-                                                <li>
-                                                    <p>Orlando</p>
-                                                </li>
-                                                <li>
-                                                    <p>Chicago</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-6">
-                                            <ul class="list-unstyled date-list">
-                                                <li>
-                                                    <p>20/01/2022</p>
-                                                </li>
-                                                <li>
-                                                    <p>22/01/2022</p>
-                                                </li>
-                                                <li>
-                                                    <p>24/01/2022</p>
-                                                </li>
-                                                <li>
-                                                    <p>26/01/2022</p>
-                                                </li>
-                                                <li>
-                                                    <p>28/01/2022</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="col-12 d-lg-none d-xl-non">
-                                    <h4>Europe</h4>
-                                    <div class="row justify-content-center">
-                                        <div class="col-6">
-                                            <ul class="list-unstyled area-list">
-                                                <li>
-                                                    <p>London</p>
-                                                </li>
-                                                <li>
-                                                    <p>Cardiff</p>
-                                                </li>
-                                                <li>
-                                                    <p>Belfast</p>
-                                                </li>
-                                                <li>
-                                                    <p>Rome</p>
-                                                </li>
-                                                <li>
-                                                    <p>Denmark</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-6">
-                                            <ul class="list-unstyled date-list">
-                                                <li>
-                                                    <p>20/02/2022</p>
-                                                </li>
-                                                <li>
-                                                    <p>22/02/2022</p>
-                                                </li>
-                                                <li>
-                                                    <p>24/02/2022</p>
-                                                </li>
-                                                <li>
-                                                    <p>26/02/2022</p>
-                                                </li>
-                                                <li>
-                                                    <p>28/02/2022</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                                </div>                 
                             </div>
                         </div>
                     </div>
-                </section>
-                <hr>
+                </div>
+                    <!--Tour list on big screen-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 tour d-none d-lg-block">
+                            <h3>2022</h3>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h4>America</h4>
+                                    <div class="row justify-content-center">
+                                        <div class="col-4">
+                                            <ul class="list-unstyled area-list">
+                                                <li>
+                                                    <p>New York</p>
+                                                </li>
+                                                <li>
+                                                    <p>Los Angeles</p>
+                                                </li>
+                                                <li>
+                                                    <p>Houston</p>
+                                                </li>
+                                                <li>
+                                                    <p>Orlando</p>
+                                                </li>
+                                                <li>
+                                                    <p>Chicago</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <ul class="list-unstyled date-list">
+                                                <li>
+                                                    <p>20/01/2022</p>
+                                                </li>
+                                                <li>
+                                                    <p>22/01/2022</p>
+                                                </li>
+                                                <li>
+                                                    <p>24/01/2022</p>
+                                                </li>
+                                                <li>
+                                                    <p>26/01/2022</p>
+                                                </li>
+                                                <li>
+                                                    <p>28/01/2022</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <h4>Europe</h4>
+                                    <div class="row justify-content-center">
+                                        <div class="col-4">
+                                            <ul class="list-unstyled area-list">
+                                                <li>
+                                                    <p>London</p>
+                                                </li>
+                                                <li>
+                                                    <p>Cardiff</p>
+                                                </li>
+                                                <li>
+                                                    <p>Belfast</p>
+                                                </li>
+                                                <li>
+                                                    <p>Rome</p>
+                                                </li>
+                                                <li>
+                                                    <p>Denmark</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <ul class="list-unstyled date-list">
+                                                <li>
+                                                    <p>20/02/2022</p>
+                                                </li>
+                                                <li>
+                                                    <p>22/02/2022</p>
+                                                </li>
+                                                <li>
+                                                    <p>24/02/2022</p>
+                                                </li>
+                                                <li>
+                                                    <p>26/02/2022</p>
+                                                </li>
+                                                <li>
+                                                    <p>28/02/2022</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <hr>
 
-                <!--Gallery section----------->
-                <section>
+        <!--Gallery section----------->
+        <article>
+            <section>
+                <div class="container">
                     <div class="row">
                         <div class="col">
                             <h2>Gallery</h2>
                             <p>Photos from previous tours</p>
                         </div>
                     </div>
-                </section>
-                <hr>
+                </div>
+            </section>
+        </article>
+        <hr>
 
-                <!--Socials section----------->
-                <section>
+        <!--Socials section----------->
+        <article>
+            <section>
+                <div class="container">
                     <div class="row">
                         <div class="col">
                             <h2>Social Media</h2>
                             <p>tweet and latest instagram feeds</p> 
                         </div>
-                    </div>  
-                </section>
-                <hr>
+                    </div>
+                </div>  
+            </section>
+        </article>
+        <hr>
 
-                <!--Founding Members---------->
-                <section>
+        <!--Founding Members---------->
+        <article>
+            <section>
+                <div class="container">
                     <div class="row">
                         <div class="col">
                             <h2>About</h2>
                             <p>Short description of the band</p>
                         </div>
                     </div>
-                </section>
-                <hr>
-
-                <!--Footer section----------->
-                <section class="footer sticky-bottom">
-                    Copyright information as well as quick link social buttons (twitter, instagram, facebook)
-                </section>
-            </div>
-    </article>
+                </div>
+            </section>
+        </article>
+        <hr>
+            
+        <!--Footer section----------->
+        <article>
+            <section class="footer sticky-bottom">
+                
+                Copyright information as well as quick link social buttons (twitter, instagram, facebook)
+                
+            </section>
+        </article>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous" defer></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous" defer></script>    
