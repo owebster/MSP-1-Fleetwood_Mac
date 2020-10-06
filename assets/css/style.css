@@ -195,19 +195,10 @@ footer {
     .tour-date-small {
         text-align: right !important;
     }
-    
-    /* Gallery section */
-
-    .carousel-item {
-        margin: auto;
-    }
-
-    .small-gallery-content{
-        height: 50vh;
-    }
-
-    .instagram-feed{
-        padding-top: 2em;
+   
+    .music-samples-section {
+        margin-top: 2em;
+        margin-bottom: 2em;
     }
 /* ------------------------- Hover States */
 .main-logo:hover{
@@ -222,8 +213,21 @@ footer {
     background-color: rgba(0,0,0,.175);
 }
 
-/* ------------------------- Images */
 
+/* ------------------------- Audio embedding */
+.no-gutters {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.audio-track{
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+}
+.music-samples-section {
+    position: relative;
+    text-align: center;
+}
 /* ------------------------- Footer */
 
 .copyright, .back-to-top, .social-media-buttons {
@@ -233,5 +237,5 @@ footer {
 footer {
     font-family: Helvetica, Arial, sans-serif;
     font-weight: lighter;
-    font-size: 1em;
+    font-size: 0.75em;
 }
