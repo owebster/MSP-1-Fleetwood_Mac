@@ -53,32 +53,25 @@ body {
     border: 0;
 }
 
-.tour-dates{
-    color: #e1c281;
-}
-
-.latest-news{
-    color: #8E191C;
-}
-
 .tour-section {
     background-color: #8E191C;
 }
 
-
-.tour-box{
-    background-color: #fffcea;
-}
-
-.tour-year {
-    color: #8E191C;
+.tour-dates{
+    color: #e1c281;
 }
 
 .tour-country {
-    color: #8E191C;
-    text-decoration: underline;
+    color: #e1c281;
 }
 
+td:first-child {
+    color: #fffcea;
+}
+
+td:last-child{
+    color:rgba(227,192,133,.5);
+}
 
 .carousel-control-next,
 .carousel-control-prev {
@@ -164,17 +157,13 @@ footer {
     }
 
     /* Tour dates */
-    .tour-section {
-        margin-bottom: 3em;
-        padding-bottom: 1em;
-    }
     
     .tour-dates {
         font-family: Helvetica, Arial, sans-serif;
         font-weight: lighter;
         font-size: 2em;
         text-align: center;
-        padding-top: 3em;
+        padding-top: 2em;
         padding-bottom: 0.5em;
     }
 
@@ -187,31 +176,18 @@ footer {
         -webkit-box-shadow: inset 0 0 15px #000000;
         box-shadow:         inset 0 0 15px #000000;
     }
-    
-    .area-list {
-        text-align: left;
-    }
 
-    .date-list {
-        text-align: right;
-    }
-
-    div h3 {
-        font-family: Helvetica, Arial, sans-serif;
-        font-size: 2rem;
-    }
-
-    .tour-country {
-        font-family: Helvetica, Arial, sans-serif;
-        font-size: 1.5rem;
-    }
-
-    
-
-    li p {
-        font-size: 0.8rem;
+    .table {
+        margin-bottom: 3.5em;
+        text-align: center;
     }
     
+    .table td,
+    .table th {
+        border: none !important;
+    }
+
+
     
 /* ------------------------- Hover States */
 .main-logo:hover{
