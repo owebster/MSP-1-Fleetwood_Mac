@@ -187,7 +187,17 @@ footer {
         border: none !important;
     }
 
+    td:first-child, .tour-country {
+        text-align: left;
+    }
 
+    td:last-child{
+        text-align: center;
+    }
+
+    .tour-date-small {
+        text-align: right !important;
+    }
     
 /* ------------------------- Hover States */
 .main-logo:hover{
