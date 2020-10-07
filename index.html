@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="assets/css/style.css"/>
         <title>Fleetwood Mac</title>
     </head>
-    <body class="fade-in">
+    <body id="home" class="fade-in">
         <header class="d-none d-lg-block"> <!-- Logo for larger screens -->
             <a class="main-logo" href="index.html">
                 <h1>Fleetwood Mac</h1>
@@ -24,13 +24,13 @@
             <div class="justify-content-center collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Latest News</a>  
+                        <a class="nav-link" href="#tours">Tours</a>  
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
+                        <a class="nav-link" href="#samples">Samples</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Socials</a>
@@ -145,7 +145,7 @@
             </section>
         </article>
         <!--Tour Dates section-------->
-        <article class="tour-section">
+        <article id="tours" class="tour-section">
             <section>
                 <div class="container">
                     <div class="row">
@@ -157,10 +157,10 @@
             </section>
             <section>
                 <!--small/medium screen table-->
-                <div class="container d-lg-none d-xl-none">
+                <div class="container">
                     <div class="row">
                         <!--American Locations-->
-                        <div class="col-12">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                             <table class="table table-borderless table-hover">
                                 <thead>
                                     <tr> 
@@ -192,7 +192,7 @@
                             </table>
                         </div>
                         <!--Europe Locations-->
-                        <div class="col-12">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                             <table class="table table-borderless table-hover">
                                 <thead>
                                     <tr> 
@@ -225,92 +225,23 @@
                         </div>
                     </div>
                 </div>
-
-                <!--larger/xl screen table-->
-                <div class="container d-none d-lg-block">
-                    <!--American Locations-->
-                    <div class="row">
-                        <div class="col-6">
-                            <table class="table table-borderless table-hover">
-                                <thead>
-                                    <tr> 
-                                        <th class="tour-country" scope="col">America</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr class="soldout">                               
-                                        <td>New York</td>
-                                        <td>20/01/2022</td>                 
-                                    </tr>
-                                    <tr class="soldout">
-                                        <td>San Jose</td>
-                                        <td>22/01/2022</td>       
-                                    </tr>
-                                    <tr>                               
-                                        <td>Houston</td>
-                                        <td>24/01/2022</td>
-                                    </tr>
-                                    <tr class="soldout">                               
-                                        <td>Orlando</td>
-                                        <td>26/01/2022</td>
-                                    </tr>
-                                    <tr>                               
-                                        <td>Chicago</td>
-                                        <td>28/01/2022</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    <!--Europe Locations-->
-                        <div class="col-6">
-                            <table class="table table-borderless table-hover">
-                                <thead>
-                                    <tr> 
-                                        <th class="tour-country" scope="col">Europe</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="soldout">       
-                                        <td>London</td>
-                                        <td>20/02/2022</td>                                  
-                                    </tr>
-                                    <tr>
-                                        <td>Cardiff</td>
-                                        <td>22/02/2022</td>
-                                    </tr>
-                                    <tr>                               
-                                        <td>Belfast</td>
-                                        <td>24/02/2022</td>
-                                    </tr>
-                                    <tr class="soldout">                               
-                                        <td>Geneva</td>
-                                        <td>26/02/2022</td>
-                                    </tr>
-                                    <tr class="soldout">                               
-                                        <td>Rome</td>
-                                        <td>28/02/2022</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
             </section>
         </article>
 
         <!--Music Samples section----------->
-        <article>
+        <article id="samples">
             <section>
                 <div class="container">
                     <div class="row no-gutters music-samples-section">
-                        <div class="col audio-track">
-                            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/254399314&color=%23e1c281&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/fleetwoodmacofficial" title="Fleetwood Mac" target="_blank" style="color: #cccccc; text-decoration: none;">Fleetwood Mac</a> · <a href="https://soundcloud.com/fleetwoodmacofficial/go-your-own-way-remastered" title="Go Your Own Way (Single; 2002 Remaster)" target="_blank" style="color: #cccccc; text-decoration: none;">Go Your Own Way (Single; 2002 Remaster)</a></div>
+                        
+                        <div class="col col-12 col-sm-12 col-md-6 col-lg-3 audio-track">
+                            <iframe width="250" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/254399314&color=%23e1c281&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/fleetwoodmacofficial" title="Fleetwood Mac" target="_blank" style="color: #cccccc; text-decoration: none;">Fleetwood Mac</a> · <a href="https://soundcloud.com/fleetwoodmacofficial/go-your-own-way-remastered" title="Go Your Own Way (Single; 2002 Remaster)" target="_blank" style="color: #cccccc; text-decoration: none;">Go Your Own Way (Single; 2002 Remaster)</a></div>
                         </div>
-                        <div class="col audio-track">
-                            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/254399405&color=%23e1c281&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/fleetwoodmacofficial" title="Fleetwood Mac" target="_blank" style="color: #cccccc; text-decoration: none;">Fleetwood Mac</a> · <a href="https://soundcloud.com/fleetwoodmacofficial/dont-stop-2004-remastered" title="Don&#x27;t Stop (2004 Remaster)" target="_blank" style="color: #cccccc; text-decoration: none;">Don&#x27;t Stop (2004 Remaster)</a></div>
+                        <div class="col col-12 col-sm-12 col-md-6 col-lg-3 audio-track">
+                            <iframe width="250" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/254399405&color=%23e1c281&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/fleetwoodmacofficial" title="Fleetwood Mac" target="_blank" style="color: #cccccc; text-decoration: none;">Fleetwood Mac</a> · <a href="https://soundcloud.com/fleetwoodmacofficial/dont-stop-2004-remastered" title="Don&#x27;t Stop (2004 Remaster)" target="_blank" style="color: #cccccc; text-decoration: none;">Don&#x27;t Stop (2004 Remaster)</a></div>
                         </div>
-                        <div class="col audio-track">
-                            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/529536837&color=%23e1c281&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/fleetwoodmacofficial" title="Fleetwood Mac" target="_blank" style="color: #cccccc; text-decoration: none;">Fleetwood Mac</a> · <a href="https://soundcloud.com/fleetwoodmacofficial/the-chain-remastered-2" title="The Chain (Live 1997; 2018 Remaster)" target="_blank" style="color: #cccccc; text-decoration: none;">The Chain (Live 1997; 2018 Remaster)</a></div>
+                        <div class="col col-12 col-sm-12 col-md-6  col-lg-3 audio-track">
+                            <iframe width="250" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/529536837&color=%23e1c281&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/fleetwoodmacofficial" title="Fleetwood Mac" target="_blank" style="color: #cccccc; text-decoration: none;">Fleetwood Mac</a> · <a href="https://soundcloud.com/fleetwoodmacofficial/the-chain-remastered-2" title="The Chain (Live 1997; 2018 Remaster)" target="_blank" style="color: #cccccc; text-decoration: none;">The Chain (Live 1997; 2018 Remaster)</a></div>
                         </div>
                     </div>
                 </div>  
@@ -324,7 +255,7 @@
                     <div class="row">
                         <div class="col">
                             <h2>Social Media</h2>
-                            <p>tweet and latest instagram feeds</p> 
+                            <p>tweeter feeds</p> 
                         </div>
                     </div>
                 </div>  
@@ -360,7 +291,7 @@
                         top
                     </div>
                     <div class="col-4 social-media-buttons">
-                        Twitter, Facebook, Instagram
+                        Twitter, Facebook, Apple Music, Spotify
                     </div>
                 </div>
             </div>
