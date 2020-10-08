@@ -53,7 +53,7 @@ body {
     border: 0;
 }
 
-.tour-section {
+.tour-section, .social-section, .latest-tweets-heading{
     background-color: #8E191C;
 } 
 
@@ -84,6 +84,14 @@ td:last-child{
 
 .carousel-inner{
     background-color: #fffcea;
+}
+
+.sample-music-heading {
+    color: #8E191C;
+}
+
+.latest-tweets-heading{
+    color: #e1c281;
 }
 
 footer {
@@ -163,7 +171,6 @@ footer {
     }
 
     /* Tour dates */
-    
     .tour-dates {
         font-family: Helvetica, Arial, sans-serif;
         font-weight: lighter;
@@ -173,7 +180,7 @@ footer {
         padding-bottom: 0.5em;
     }
 
-    .tour-section{
+    .tour-section {
         -moz-box-shadow:    0 0 1rem #000000;
         -webkit-box-shadow: 0 0 1rem #000000;
         box-shadow:         0 0 1rem #000000;
@@ -200,6 +207,48 @@ footer {
         margin-top: 2em;
         margin-bottom: 2em;
     }
+
+    /* ------------------------- Audio embedding */
+    .no-gutters {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .audio-track{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .sample-music-heading {
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: lighter;
+        font-size: 2em;
+        text-align: center;
+        padding-top: 2em;
+        padding-bottom: 0.5em;
+    }
+
+    /* ------------------------ Tweets */
+
+    .socials {
+        -moz-box-shadow:    0 0 1rem #000000;
+        -webkit-box-shadow: 0 0 1rem #000000;
+        box-shadow:         0 0 1rem #000000;
+    }
+
+    .latest-tweets-heading {
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: lighter;
+        font-size: 2em;
+        text-align: center;
+        padding-top: 1.5em;
+        padding-bottom: 0.5em;
+    }
+
+    .social-section {
+       padding-bottom: 2em;
+    }
 /* ------------------------- Hover States */
 .main-logo:hover{
     text-decoration: none;
@@ -207,23 +256,6 @@ footer {
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: #e1c281
-}
-
-.soldout:hover {
-    background-color: rgba(0,0,0,.175);
-}
-
-
-/* ------------------------- Audio embedding */
-.no-gutters {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.audio-track{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
 }
 
 /* ------------------------- Footer */
