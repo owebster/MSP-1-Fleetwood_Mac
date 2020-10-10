@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap&family=Josefin+Slab:wght@100;300;400;600;700&family=Marck+Script&display=swap');
+@font-face {
+    font-family: 'Monsieur La Doulaise';
+    src: url('../fonts/MonsieurLaDoulaise-Regular.ttf') ;
+}
 
 /* ------------------------- Fade in for body. To offer a nice laoding transition and to allow larger fonts to load if needed */
 .fade-in {
@@ -6,7 +9,7 @@
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
     }
     
     @keyframes fadeInOpacity {
@@ -34,6 +37,7 @@ body {
     background-color:#8E191C;
     color: #e1c281;
 }
+
 
 .navbar {
     background-color: #8E191C;
@@ -99,6 +103,9 @@ footer {
     color: #e1c281;
 }
 
+.footer-links {
+    color: #e1c281;
+}
 /* ------------------------- Main logo large */
 .main-logo h1{
     font-family: 'Monsieur La Doulaise', cursive, sans-serif;
@@ -217,6 +224,7 @@ footer {
     .audio-track{
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 1em;
         text-align: center;
     }
 
@@ -258,6 +266,10 @@ footer {
     color: #e1c281
 }
 
+.footer-links:hover {
+    color: rgba(225, 194, 129, 1)
+}
+
 /* ------------------------- Footer */
 
 .copyright, .back-to-top, .social-media-buttons {
@@ -268,4 +280,8 @@ footer {
     font-family: Helvetica, Arial, sans-serif;
     font-weight: lighter;
     font-size: 0.75em;
+}
+
+.footer-social-buttons {
+    font-size: 1em;
 }
