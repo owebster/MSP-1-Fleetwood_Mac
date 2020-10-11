@@ -57,15 +57,12 @@ body {
     border: 0;
 }
 
-.tour-section, .social-section, .latest-tweets-heading{
+.tour-section, .social-section, .latest-tweets-heading, footer{
     background-color: #8E191C;
+    color: #e1c281;
 } 
 
-.tour-dates{
-    color: #e1c281;
-}
-
-.tour-country {
+.tour-dates, .tour-country{
     color: #e1c281;
 }
 
@@ -90,17 +87,8 @@ td:last-child{
     background-color: #fffcea;
 }
 
-.sample-music-heading {
+.sample-music-heading, .newsletter {
     color: #8E191C;
-}
-
-.latest-tweets-heading{
-    color: #e1c281;
-}
-
-footer {
-    background-color: #8E191C;
-    color: #e1c281;
 }
 
 .footer-links {
@@ -233,7 +221,7 @@ footer {
         font-weight: lighter;
         font-size: 2em;
         text-align: center;
-        padding-top: 2em;
+        padding-top: 1.5em;
         padding-bottom: 0.5em;
     }
 
@@ -254,8 +242,30 @@ footer {
         padding-bottom: 0.5em;
     }
 
-    .social-section {
+    .social-section, .newsletter-section{
        padding-bottom: 2em;
+    }
+
+    /* ------------------------ Newsletter */
+    .newsletter {
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: lighter;
+        font-size: 2em;
+        text-align: center;
+        padding-top: 1.5em;
+        padding-bottom: 0.5em;
+    }
+
+    .newsletter-pitch {
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: lighter;
+        font-size: 1em;
+        text-align: center;
+        padding-bottom: 0.5em;
+    }
+
+    .form-check {
+        text-align: center;
     }
 /* ------------------------- Hover States */
 .main-logo:hover{

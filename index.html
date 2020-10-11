@@ -36,7 +36,7 @@
                         <a class="nav-link" href="#socials">Tweets</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#newsletter">Newsletter</a>
                     </li>
                 </ul>
             </div>
@@ -293,16 +293,45 @@
                 </div>  
             </section>
         </article>
-        <!--About / Where to find us---------->
-        <article>
+        <!--Newsletter---------->
+        <article id="newsletter" class="newsletter-section">
             <section>
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
-                        <div class="col">
-                            <h2>About</h2>
-                            <p>Short description of the band</p>
+                        <div class="col-12 newsletter">
+                            <h2>Newsletter</h2>
+                            <h2><i class="far fa-newspaper"></i></h2>
+                        </div>
+                        <div class="col-12 newsletter-pitch">
+                            <p>Sign up to hear the latest news about upcoming tours, new album releases and our new merch store that's coming next year!</p>
                         </div>
                     </div>
+                </div>
+                <div class="container">
+                    <form class="needs-validation" method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
+                        <div class="form-row">
+                          <div class="col-md-6 mb-3">
+                            <input type="text" name="fname" class="form-control" id="validationDefault01" placeholder="First Name" required>
+                          </div>
+                          <div class="col-md-6 mb-3">
+                            <input type="text" name="lname" class="form-control" id="validationDefault02" placeholder="Last Name" required>
+                          </div>
+                        </div>
+                        <div class="form-row justify-content-md-center">
+                          <div class="col-md-6 mb-3">
+                            <input type="email" name="email" class="form-control" id="validationDefault03" placeholder="Email Address" required>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                            <label class="form-check-label" for="invalidCheck2">
+                              Agree to terms and conditions
+                            </label>
+                          </div>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Sign-up!</button>
+                      </form>
                 </div>
             </section>
         </article> 
