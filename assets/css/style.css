@@ -38,12 +38,13 @@ body {
     color: #e1c281;
 }
 
+a h2{
+    color: #e1c281;
+}
 
 .navbar {
     background-color: #8E191C;
 }
-
-
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #e1c281;
@@ -91,6 +92,12 @@ td:last-child{
     color: #8E191C;
 }
 
+.newsletter-btn {
+    background-color: #8E191C;
+    color: #e1c281;
+    border-color: rgba(0, 0, 0, 0);
+}
+
 .footer-links {
     color: #e1c281;
 }
@@ -99,7 +106,7 @@ td:last-child{
     font-family: 'Monsieur La Doulaise', cursive, sans-serif;
     font-size: 3.5em;
     padding-top: 0.4em;
-    margin-bottom: -0.1em;
+    margin-bottom: -.1em;
     text-align: center;
     position: relative;
 }
@@ -172,7 +179,7 @@ td:last-child{
         font-size: 2em;
         text-align: center;
         padding-top: 2em;
-        padding-bottom: 0.5em;
+        padding-bottom: .5em;
     }
 
     .tour-section {
@@ -214,6 +221,14 @@ td:last-child{
         margin-right: auto;
         margin-bottom: 1em;
         text-align: center;
+        font-size: 10px;
+        line-break: auto;
+        word-break: normal;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 100;
     }
 
     .sample-music-heading {
@@ -222,7 +237,7 @@ td:last-child{
         font-size: 2em;
         text-align: center;
         padding-top: 1.5em;
-        padding-bottom: 0.5em;
+        padding-bottom: .5em;
     }
 
     /* ------------------------ Tweets */
@@ -238,8 +253,8 @@ td:last-child{
         font-weight: lighter;
         font-size: 2em;
         text-align: center;
-        padding-top: 1.5em;
-        padding-bottom: 0.5em;
+        padding-top: 2em;
+        padding-bottom: .5em;
     }
 
     .social-section, .newsletter-section{
@@ -253,7 +268,7 @@ td:last-child{
         font-size: 2em;
         text-align: center;
         padding-top: 1.5em;
-        padding-bottom: 0.5em;
+        padding-bottom: .5em;
     }
 
     .newsletter-pitch {
@@ -261,13 +276,19 @@ td:last-child{
         font-weight: lighter;
         font-size: 1em;
         text-align: center;
-        padding-bottom: 0.5em;
+        padding-bottom: .5em;
+        display: block;
+        margin: 0 auto
     }
 
     .form-check {
         text-align: center;
     }
 
+    .newsletter-btn {
+        display: block;
+        margin: 0 auto;
+    }
 /* ------------------------- Hover States */
 .main-logo:hover{
     text-decoration: none;
@@ -281,6 +302,12 @@ td:last-child{
     color: rgba(225, 194, 129, 1)
 }
 
+.newsletter-btn:hover {
+    background-color: #e1c281;
+    color: #8E191C;
+    border-color: rgba(0, 0, 0, 0);
+}
+
 /* ------------------------- Footer */
 
 .copyright, .back-to-top, .social-media-buttons {
@@ -290,9 +317,10 @@ td:last-child{
 footer {
     font-family: Helvetica, Arial, sans-serif;
     font-weight: lighter;
-    font-size: 0.75em;
+    font-size: .75em;
 }
 
 .footer-social-buttons {
-    font-size: 1em;
+    color: #e1c281;
+    font-size: 2em;
 }
