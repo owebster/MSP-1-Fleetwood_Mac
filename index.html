@@ -9,14 +9,14 @@
         <link rel="stylesheet" href="assets/css/style.css"/>
         <title>Fleetwood Mac</title>
     </head>
-    <body id="home" class="fade-in">
+    <body class="fade-in">
         <header class="d-none d-lg-block"> <!-- Logo for larger screens -->
             <a class="main-logo" href="index.html">
                 <h1>Fleetwood Mac</h1>
             </a>
         </header>
         <!-- Title bar -->
-        <nav class="navbar navbar-expand-lg shadow-lg p-3 mb-5 navbar-light sticky-top" id="top">
+        <nav class="navbar navbar-expand-lg shadow-lg p-3 mb-5 navbar-light sticky-top">
             <a class="navbar-brand d-lg-none" href="index.html"><h2>Fleetwood Mac</h2></a> <!--Logo for smaller screens-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
                 <menu class="navbar-nav">
                     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#top">Home</a>
                     </li>
                     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <a class="nav-link" href="#tours">Tours</a>  
@@ -42,7 +42,7 @@
             </div>
         </nav>
         <!--Main Site-->
-        <div class="containter main-area">
+        <div id="top" class="containter main-area">
             <!--Carousel section-->
             <article class="main-carousel">
                 <!--Carousel for small, medium screen-->
@@ -254,7 +254,7 @@
                 </section>
             </article>
             <!--Twitter section----------->
-            <article class="twitter-section">
+            <article id="socials" class="twitter-section">
                 <section>
                     <div class="row twitter-heading">
                         <div class="col-12">
@@ -316,7 +316,7 @@
                 </section>
             </article>
             <!--Newsletter---------->
-            <article class="newsletter-section">
+            <article id="newsletter" class="newsletter-section">
                 <section>
                     <div class="row">
                         <div class="col-12 newsletter-heading">

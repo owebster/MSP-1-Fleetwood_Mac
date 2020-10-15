@@ -4,6 +4,7 @@
 }
 
 /* ------------------------- Fade in for body. To offer a nice laoding transition and to allow larger fonts to load if needed */
+
 .fade-in {
     opacity: 1;
     animation-name: fadeInOpacity;
@@ -19,10 +20,6 @@
     100% {
     opacity: 1;
     }
- }
-
-html { /* for smooth scrolling to section */
-    scroll-behavior: smooth;
 }
 
 html,body{
@@ -31,6 +28,7 @@ html,body{
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+    scroll-behavior: smooth;
 }
 
 .main-area {
@@ -68,6 +66,7 @@ a h2{
 
 .navbar .navbar-toggler { /* Nav bar button for collasped view*/
     border: 0;
+    color: #e1c281;
 }
 
 .stream-on {
@@ -168,7 +167,19 @@ td:last-child{
 
     .large-carousel{
         padding-top: 0;
+        height: auto;
+        width: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: contain;
     }
+
+    .large-carousel img {
+        height: 70vh;
+        width: 100vw;
+        object-fit: contain;
+    }
+
     /* media buttons to link to appropriate site */
     .stream-on {
         text-align: center;
