@@ -21,10 +21,22 @@
     }
  }
 
- html { /* for smooth scrolling to section */
+html { /* for smooth scrolling to section */
     scroll-behavior: smooth;
- }
+}
 
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.main-area {
+    padding-left: 5%;
+    padding-right: 5%;
+}
 /* ------------------------- Colours */
         /* Colour of rumours album #fffcea */
         /* colour of 2018 album #ECCB82 */ 
@@ -58,7 +70,11 @@ a h2{
     border: 0;
 }
 
-.tour-section, .social-section, .latest-tweets-heading, footer{
+.stream-on {
+    color: #8E191C;
+}
+
+.tour-section, .social-section, footer{
     background-color: #8E191C;
     color: #e1c281;
 } 
@@ -88,8 +104,16 @@ td:last-child{
     background-color: #fffcea;
 }
 
-.sample-music-heading, .newsletter {
+.sample-music-heading, .newsletter-heading {
     color: #8E191C;
+}
+
+.twitter-section{
+    background-color: #8E191C;
+}
+
+.twitter-heading, .card-link {
+    color: #e1c281;
 }
 
 .newsletter-btn {
@@ -98,7 +122,7 @@ td:last-child{
     border-color: rgba(0, 0, 0, 0);
 }
 
-.footer-links {
+.fa-twitter, .fa-apple, .fa-spotify, .fa-youtube, .fa-arrow-alt-circle-up{
     color: #e1c281;
 }
 /* ------------------------- Main logo large */
@@ -141,6 +165,7 @@ td:last-child{
 }
 
 /* ------------------------- Body */
+
     .large-carousel{
         padding-top: 0;
     }
@@ -153,6 +178,8 @@ td:last-child{
 
     .listening-options {
         text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     li img {
@@ -161,7 +188,7 @@ td:last-child{
         height: auto;
       }
 
-    .list-inline li{
+    .listening-options li{
         padding-right: 5%;
         padding-left: 5%;
         padding-top: 1%;
@@ -183,6 +210,7 @@ td:last-child{
     }
 
     .tour-section {
+        border-radius: 15px;
         -moz-box-shadow:    0 0 1rem #000000;
         -webkit-box-shadow: 0 0 1rem #000000;
         box-shadow:         0 0 1rem #000000;
@@ -191,6 +219,8 @@ td:last-child{
     .table {
         margin-bottom: 3.5em;
         text-align: center;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     td:first-child, .tour-country {
@@ -205,30 +235,18 @@ td:last-child{
         text-align: right !important;
     }
    
-    .music-samples-section {
-        margin-top: 2em;
-        margin-bottom: 2em;
+    .table {
+        max-width: 60%;
     }
-
     /* ------------------------- Audio embedding */
     .no-gutters {
         padding-left: 0;
         padding-right: 0;
     }
 
-    .audio-track{
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 1em;
-        text-align: center;
-        font-size: 10px;
-        line-break: auto;
-        word-break: normal;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        font-family: Helvetica, Arial, sans-serif;
-        font-weight: 100;
+    .music-samples-section {
+        margin-top: 2em;
+        margin-bottom: 2em;
     }
 
     .sample-music-heading {
@@ -240,35 +258,62 @@ td:last-child{
         padding-bottom: .5em;
     }
 
-    /* ------------------------ Tweets */
+    .audio-track{
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 10px;
+        text-align: center;
+        font-weight: 100;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+        line-break: auto;
+        word-break: normal;
+        overflow: hidden;
+        white-space: nowrap;
+    } 
 
-    .socials {
+    div iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    /* ------------------------ Tweets */
+    .twitter-section{
+        text-align: center;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        border-radius: 15px;
         -moz-box-shadow:    0 0 1rem #000000;
         -webkit-box-shadow: 0 0 1rem #000000;
         box-shadow:         0 0 1rem #000000;
     }
 
-    .latest-tweets-heading {
+    .twitter-heading {
         font-family: Helvetica, Arial, sans-serif;
-        font-weight: lighter;
-        font-size: 2em;
+        font-weight: lighter;    
+        margin-bottom: 2%;
+    }
+    
+    .tweets, .card {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 95%;
         text-align: center;
-        padding-top: 2em;
-        padding-bottom: .5em;
     }
 
-    .social-section, .newsletter-section{
-       padding-bottom: 2em;
+    .card {
+        margin-bottom: 5%;
     }
-
     /* ------------------------ Newsletter */
-    .newsletter {
+    .newsletter-heading {
         font-family: Helvetica, Arial, sans-serif;
         font-weight: lighter;
         font-size: 2em;
         text-align: center;
-        padding-top: 1.5em;
-        padding-bottom: .5em;
+    }
+
+    .newsletter-section {
+        padding-top: 2em;
     }
 
     .newsletter-pitch {
@@ -288,7 +333,34 @@ td:last-child{
     .newsletter-btn {
         display: block;
         margin: 0 auto;
+        margin-bottom: 2em;
     }
+
+/* ------------------------- Footer */
+
+.copyright, .footer-social-buttons {
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+.footer-social-buttons {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 2em;
+}
+
+.copyright {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+
+dl, ol, ul {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
 /* ------------------------- Hover States */
 .main-logo:hover{
     text-decoration: none;
@@ -306,21 +378,4 @@ td:last-child{
     background-color: #e1c281;
     color: #8E191C;
     border-color: rgba(0, 0, 0, 0);
-}
-
-/* ------------------------- Footer */
-
-.copyright, .back-to-top, .social-media-buttons {
-    text-align: center;
-}
-
-footer {
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: lighter;
-    font-size: .75em;
-}
-
-.footer-social-buttons {
-    color: #e1c281;
-    font-size: 2em;
 }
