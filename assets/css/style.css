@@ -10,7 +10,7 @@
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     }
     
     @keyframes fadeInOpacity {
@@ -250,14 +250,9 @@ td:last-child{
         max-width: 60%;
     }
     /* ------------------------- Audio embedding */
-    .no-gutters {
-        padding-left: 0;
-        padding-right: 0;
-    }
 
     .music-samples-section {
-        margin-top: 2em;
-        margin-bottom: 2em;
+        margin: 1em;
     }
 
     .sample-music-heading {
