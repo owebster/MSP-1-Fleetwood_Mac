@@ -33,9 +33,9 @@ The main goal for the user interface is to provide a simplistic yet intuitive we
 * An easy 'one stop shop' for all Fleetwood Mac (tour details, streaming services, latest news and news letter)
 
 ## Wireframes
-<img src="assets/images/Wireframe/Phone_Small_Screens.png" alt="Small Screen Wireframe" width="200" height="300" />
+<img src="assets/images/Wireframe/Phone_Small_Screens.png" alt="Small Screen Wireframe" width="100" height="600" />
 <img src="assets/images/Wireframe/Tablet.png" alt="Medium Screen Wireframe" width="200" height="300" />
-<img src="assets/images/Wireframe/Large_and_Medium_display.png" alt="Large Screen Wireframe" width="200" height="300" />
+<img src="assets/images/Wireframe/Large_and_Medium_display.png" alt="Large Screen Wireframe" width="300" height="400" />
 
 ## Scope
 ### Current Fetures
