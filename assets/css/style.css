@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'Monsieur La Doulaise';
     src: url('../fonts/MonsieurLaDoulaise-Regular.ttf') ;
+    font-display: swap;
 }
 
 /* ------------------------- Fade in for body. To offer a nice laoding transition and to allow larger fonts to load if needed */

@@ -68,3 +68,4 @@ These are the languages, framework and resources that I used to build this websi
    }'
 - [Stackoverflow] (https://stackoverflow.com/questions/54597965/how-do-i-get-nav-menu-to-collapse-on-mobile-but-not-on-desktop) Nav bar auto closing toggle 
 - [Stackoverflow] (https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend) Spacing issue on   site
+- [Web.dev] (https://web.dev/font-display/) Used 'font-display: swap;' to improve lighthouse score
