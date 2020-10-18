@@ -33,9 +33,9 @@ The main goal for the user interface is to provide a simplistic yet intuitive we
 * An easy 'one stop shop' for all Fleetwood Mac (tour details, streaming services, latest news and news letter)
 
 ## Wireframes
-![Large/Medium_Displays](assets/images/Wireframe/Large and Medium display.png)
+![Large/Medium_Displays](assets/images/Wireframe/Large_and_Medium display.png)
 ![Tablet_Displays](assets/images/Wireframe/Tablet.png)
-![Small/Phone_Displays](assets/images/Wireframe/Phone (Small Screens).png)
+![Small/Phone_Displays](assets/images/Wireframe/Phone_Small_Screens.png)
 
 ## Scope
 ### Current Fetures
