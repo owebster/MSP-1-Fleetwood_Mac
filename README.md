@@ -63,6 +63,17 @@ The main goal for the user interface is to provide a simplistic yet intuitive we
 - Hover states on tour dates that shows either sold our or avaliable shows and directs customers to ticketing website
 - Newsletter sign up for latest news from the band (curretly there but not active)
 
+### Structure
+The site is built as a one page design with multiple page anchors. It is designed to create a story like layout for the band where the user starts off with:
+   * The greatest hits / latest album section
+   * Immediatly after that, it gives an option for users to go straight to latest streaming services.
+   * Following the exploration of the band's streaming services, users are taken to the band's latest tour details, enticing users to look for shows near their areas
+   * From the tour dates, you are taken to the music sample section to explore more of the band's hits directly from the website
+   * This is followed by some social media content and an option to keep upto date with the band with a news letter sign up to notify users on new tour dates, new music and potentially new merchandise to purchase
+
+I decided to build the site in this way to offer the user a clear and fluid layout, suiting well as a mobile first site as it gives the feeling of an app like website. 
+On the desktop, the site offers a nice continuation between differnt sections.
+
 ## Technologies used
 These are the languages, framework and resources that I used to build this website:
 - HTML
