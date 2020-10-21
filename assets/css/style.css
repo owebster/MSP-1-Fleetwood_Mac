@@ -304,6 +304,10 @@ td:last-child{
         margin-bottom: 2%;
     }
     
+    p .fa-twitter {
+        font-size: 2em;
+    }
+
     .tweets, .card {
         margin-left: auto;
         margin-right: auto;
@@ -384,4 +388,11 @@ dl, ol, ul {
     background-color: #e1c281;
     color: #8E191C;
     border-color: rgba(0, 0, 0, 0);
+}
+
+/* ------------------------- README */
+.mockup_image {
+    width: auto;
+    height: auto;
+    text-align: center;
 }
