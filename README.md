@@ -17,7 +17,9 @@ In this document I will go through what I have built and why, including the idea
       * Start
       * Middle
       * Ongoing
+   * Features
    * Technologies Used
+   * Testing
    * Credits
 
 ## UX
@@ -99,5 +101,148 @@ And for the user:
    * Newsletter section provides a clear and straightforward signup process (minimal amount of details needed, meaning that users wont feel like they have to give up alot of privacy just to sign up to a newsletter)
 
 ## Wireframe:
-For my wireframes, I used balsamiq Wireframes to mockup and create the site in differnt device sizes. Shown below are the differnt wireframes for Mobile, Tablet and Desktop. I started with the mobile site and worked from there to scale up the deisgn. You can click on each image for a larger size.
-<img src="assets/images/Wireframe/Phone_Small_Screens.png" alt="Small Screen Wireframe" width="43" height="389" /> <img src="assets/images/Wireframe/Tablet.png" alt="Medium Screen Wireframe" width="61" height="198" /><img src="assets/images/Wireframe/Large_and_Medium_display.png" alt="Large Screen Wireframe" width="130" height="382" />
+For my wireframes, I used balsamiq Wireframes to mockup and create the site in differnt device sizes. Shown below are the differnt wireframes for Mobile, Tablet and Desktop. I started with the mobile site and worked from there to scale up the deisgn. You can click on the image for a larger size.
+<img src="assets/images/Wireframe/wireframe_all.png" alt="Wireframes of all small, medium and large screen sizes" width="288" height="180" />
+
+## Scope
+I built this project to the schedule that was generated on the Code Institute schedule generator which is ahead of the hard deadline for this project (soft-deadline: 10th November 2020, hard-deadline: 20th November 2020). This meant that it has been my priority to build this website to in line with my soft deadline, to ensure that I am ahead of schedule and maintain a good pace.
+I am happy to report that I feel as though I have built a website that meets the criteria that was provided to me as well as utilising the knowledge I have learnt so far all withing the timeframe provided even though I am studying part time.
+
+The approach I took was by splitting the project into differnt sections (Start, Middle and Ongoing). 
+   * By doing this I was able to plan out what I wanted to start off with on the website focusing on the basic structure and the differnt sections I wanted to include
+   * Then in the middle I focused on the styling of the sections and on-going testing of the site to make sure what I was building functions normally in differnt settings
+   * Finally my ongoing section is based on what I want to add in the future with any future technologies I learn
+
+### Start
+
+   * Research and planning: 
+      * I first started off by looking at what the band's current webpage looks like and also webpages of other bands to gain inspiration on layout, colours etc. 
+      * I then created a basic skeleton in balsamiq
+      * From creating the skeleton, I looked at [Bootstrap](https://getbootstrap.com/) for differnt component ideas (nav bar styles, buttons, tables)
+      * Researched and chosen logo font type via Google Fonts
+   * UI and UX planning
+      * Begging with the basic HTML layout, I layed out: 
+         * The skeleton of the heading / navbar area
+         * The 4 seperate articles and sections within the body (Tours, Samples, Tweets & Newsletter. Tweets was formally known as socials)
+         * The footer of the site
+      * I thought about the "story" and flow of the site (mentioned above) and planned out where each section would be and how it might look.
+         * I used CSS to pair and customise differnt colours and found colours via [ColorTools] (https://www.colortools.net/color_complementary.html), which allowed me to analise similar colours and contrasting within the same colour pallet.
+      * I took what I had learnt around Bootstrap and imported the framework to help give some contenxt to the website.
+
+### Middle
+
+   * Content
+      * As I had layed our and chosen the basic colour scheme of the site, I started brining in the content that I wanted to include:
+         * Album art work for hero carousel (also included larger styled artwork for large screen devices)
+         * Soundcloud intergration (via soundcloud's own embedding options via their site)
+         * Twitter information (originally the site had tweets directly embedded within it, however changed to custom cards to improve accessibility support as well as to improve viewing support on multiple screen sizes)
+         * Research on official marketing images for streaming services (Apple Music, Spotify and Youtube all have images provided by each company)
+   * Styling
+      * Finalised on smaller colour choices for text in differnt sections (making sure there is a good enough contrast difference between background colours and chosen text colours)
+      * Downloaded and imported fonts directly into documents to improve load times
+      * Researched and included shadowing and radius styles for navbar and alternating sections to create a hover effect on deep red elements - all done with CSS
+      * Utilising Bootstrap's base styling options (e.g. "light" or "dark" navbar options) then customising individual elements with CSS
+
+### Ongoing
+
+   * With this ongoing section, this is where I have idea's to build into the site that I might not have had the time to do right now, or have not learnt the appropriate technologies to implement.
+      * Hover styling for Tour section (currently implemented hover states for each line, however have not yet implemented a "soldout" hover style on tour dates that have been sold out)
+      * Updated card's section for tweets from Twitter (added and styled as of the 18th October)
+      * Merchandise section 
+         * With checkout options directly on site
+      * Personal account section to track tickets for tours and purchased / saved merchandise
+      * Smooth Scrolling on Safari (smooth scrolling currently implemented with CSS with the code `scroll-behavior: smooth`, however this is not supported in Safari without adding Javascript)
+      * Performance imporvements (ongoing: compressing image sizes, refinements in code)
+
+## Features
+
+### Current:
+   * Live carousel for latest Albums
+      * When in small/mobile view, this shows square images to mimic popular social media formats and to fit on device easier
+      * When in medium/large (desktop) view, this shows larger images to fit on screen and fill the screen more, offering a more imersive look
+   * Tour table, showcasing upcoming tours
+      * When in small/mobile, this is displayed with one country section above the other to offer a less crammped expereince
+      * When in medium/large (desktop) view, this is spread out to have both country sections inline with each other
+   * Embedded audio sampling from Soundcloud to allow users to listen to song snippets
+      * When in small/mobile, this is displayed as one audio track above the other
+      * When in medium/large (desktop) view, the tracks go into a 2x3 layout
+   * Latest tweet section with cards from Bootstrp
+      * When in small/mobile, this is displayed with one card above another
+      * When in medium/large (desktop) view, all 3 cards are inline to fill the screen more
+   * Newsletter signup section
+      * Adaptive to differnt screen sizes, offering same layout accross differnt screen sizes
+   * Smooth scrolling (apart from Safari)
+   * On all screen view options, the Navbar is sticky on top to offer easier navigation between each section of the site
+   * The main header enlarges as deivce screen enlarges from small -> medium -> large to offer the best viewing expereience by not taking up too much space on each respected screen size
+   * Curved and shadowing on navbar and sections with deep red to offer a layer/hovering effect, as well as to offer a more modern/comforting feel with the rounded edges
+
+### Future:
+   * Performance improvement by refining code and compressing images
+   * Adding Javascript to offer:
+      * Smooth scrolling on Safari
+      * Shop and cart (for merch store)
+      * Differnt styling effects for site (replacing some bootstrap e.g. on the navbar)
+   * Store to purchase concert tickets and merchandise
+   * Live twitter intergration (removes the need for manual editing of tweets)
+   * Randomisation of track samples to offer a more diverse catalog
+
+## Technologies used:
+   * HTML      - for content and primary language used
+   * CSS       - for styling of my project
+   * [Bootstrap](https://getbootstrap.com/) - for structure and extra features of the site
+   * [Fontawesome](https://fontawesome.com/)
+      * fa-twitter for Twitter logo
+      * fa-globe-europe for Tour dates section icon
+      * fa-headphones-alt for Samples section icon
+      * fa-newspaper for newsletter icon
+      * fa-apple for Apple logo in footer
+      * fa-spotify for spotify logo in footer
+      * fa-youtube for Youtube logo in gooter
+   * Git/Github (Web and desktop app)
+   * Google Fonts - Monsieur La Doulaise
+   * Visual Studio Code (VS Code)
+
+## Testing:
+
+### HTML
+All HTML code has gone through https://validator.w3.org/ and no errors occur
+
+### CSS
+All CSS was tested using https://jigsaw.w3.org and no errors were returned
+
+### Chrome developer tools
+When building the site, during each section I used Chrome's inspect and developer tools (such as lighthouse) to validate my work and to ensure the site worked accross multiple screen sizes.
+This was also used to debug any structual and/or styling issues ont he fly
+
+### Buttons and Links
+All buttons, links and audio that has been embedded has been accounted for and directs to the right source
+
+## Credits:
+   * [Bootstrap] (https://getbootstrap.com/)
+   * [ColorTools] (https://www.colortools.net/color_complementary.html) for picking complenmentary and contrasting colours
+   * Tutor support from Code institute
+      * Stephen for helping sovle font-load times and suggesting:
+      ```
+      .fade-in {
+      opacity: 1;
+      animation-name: fadeInOpacity;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in;
+      animation-duration: 0.5s;
+      }
+      ```
+      * Johann & Miklos for suggestions around background images
+   * [w3schools] (https://w3schools.com) for learning and improving code
+   * [Css-Tricks] (https://css-tricks.com/snippets/css/css-box-shadow/) Shadowing code for nav bar and seperate sections: 
+      ```
+      .shadow {
+      -moz-box-shadow:    inset 0 0 10px #000000;
+      -webkit-box-shadow: inset 0 0 10px #000000;
+      box-shadow:         inset 0 0 10px #000000;
+      }
+      ```
+   * [Stackoverflow] (https://stackoverflow.com/questions/54597965/how-do-i-get-nav-menu-to-collapse-on-mobile-but-not-on-desktop) Nav bar auto closing toggle 
+   * [Stackoverflow] (https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend) Spacing issue on   site
+   * [Web.dev] (https://web.dev/font-display/) Used `font-display: swap;` to improve lighthouse performance score
+   * My mentor Spencer for helping me along the way on my first project.
+   * Everyone who had a look and commented on peer to peer code review on slack

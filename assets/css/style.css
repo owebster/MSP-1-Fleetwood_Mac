@@ -283,7 +283,6 @@ td:last-child{
     div iframe {
         width: 100%;
         height: auto;
-        scroll-behavior: none;
         border: none;
     }
 
