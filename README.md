@@ -17,6 +17,7 @@ In this document I will go through what I have built and why, including the idea
       * Start
       * Middle
       * Ongoing
+   * User Stories
    * Features
    * Technologies Used
    * Testing
@@ -102,7 +103,14 @@ And for the user:
 
 ## Wireframe:
 For my wireframes, I used balsamiq Wireframes to mockup and create the site in differnt device sizes. Shown below are the differnt wireframes for Mobile, Tablet and Desktop. I started with the mobile site and worked from there to scale up the deisgn. You can click on the image for a larger size.
-<img src="assets/images/Wireframe/wireframe_all.png" alt="Wireframes of all small, medium and large screen sizes" width="288" height="180" />
+
+<img src="assets/images/Wireframe/wireframe_all.png" alt="Wireframes of all small, medium and large screen sizes" width="576" height="360" />
+
+## Accessibility
+The site was built with accessibility needs in mind. 
+   * All images have the correct alt tags
+   * Colours throughout the site offer contrast from on another to ensure easier readability
+   * Tested with Lighthouse to improve and fix accessibility concerns
 
 ## Scope
 I built this project to the schedule that was generated on the Code Institute schedule generator which is ahead of the hard deadline for this project (soft-deadline: 10th November 2020, hard-deadline: 20th November 2020). This meant that it has been my priority to build this website to in line with my soft deadline, to ensure that I am ahead of schedule and maintain a good pace.
@@ -154,8 +162,14 @@ The approach I took was by splitting the project into differnt sections (Start, 
       * Smooth Scrolling on Safari (smooth scrolling currently implemented with CSS with the code `scroll-behavior: smooth`, however this is not supported in Safari without adding Javascript)
       * Performance imporvements (ongoing: compressing image sizes, refinements in code)
 
-## Features
+## User Stories
+### Current Fan
+I love the band and have been listening to them since I was a child with my parent. I care about and enjoy the fact that the site has everything I need to keep updated to the band and what is happening next, without me having to go to differnt websites for individual bits of information
 
+### New user
+I really like the colours of the site and how it's a modern looking site for a band. It's a great feature to discover music right on the site and for the site to be able to bring me to my Spotify app on my phone to show me even more music from the band.
+
+## Features
 ### Current:
    * Live carousel for latest Albums
       * When in small/mobile view, this shows square images to mimic popular social media formats and to fit on device easier
@@ -203,7 +217,6 @@ The approach I took was by splitting the project into differnt sections (Start, 
    * Visual Studio Code (VS Code)
 
 ## Testing:
-
 ### HTML
 All HTML code has gone through https://validator.w3.org/ and no errors occur
 
@@ -216,6 +229,17 @@ This was also used to debug any structual and/or styling issues ont he fly
 
 ### Buttons and Links
 All buttons, links and audio that has been embedded has been accounted for and directs to the right source
+
+### Questions asked to users
+Whilst building the site I followed up with differnt users to see what their impressions were on the site. Some of the questions I asked to get some valualble feedback were:
+   * How do you find the colours of the site?
+      * Can you describe how it feels to be looking these colours?
+         * Are they easy on the eye?
+   * Does the radius around the "top bar" give the site a modern feel?
+   * Can you easily go to differnt sections on the site without having to go back to the top?
+   * Can you easily see and use the links on the site?
+   * Does the newsletter section make it clear about what you're signing up to?
+   * Do the "floating" sections make it easy to distinguish between what you're currently viewing and what is coming next?
 
 ## Credits:
    * [Bootstrap] (https://getbootstrap.com/)
