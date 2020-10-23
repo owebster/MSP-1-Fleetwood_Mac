@@ -134,7 +134,7 @@ The approach I took was by splitting the project into differnt sections (Start, 
          * The 4 seperate articles and sections within the body (Tours, Samples, Tweets & Newsletter. Tweets was formally known as socials)
          * The footer of the site
       * I thought about the "story" and flow of the site (mentioned above) and planned out where each section would be and how it might look.
-         * I used CSS to pair and customise differnt colours and found colours via [ColorTools] (https://www.colortools.net/color_complementary.html), which allowed me to analise similar colours and contrasting within the same colour pallet.
+         * I used CSS to pair and customise differnt colours and found colours via [ColorTools](https://www.colortools.net/color_complementary.html), which allowed me to analise similar colours and contrasting within the same colour pallet.
       * I took what I had learnt around Bootstrap and imported the framework to help give some contenxt to the website.
 
 ### Middle
@@ -242,8 +242,8 @@ Whilst building the site I followed up with differnt users to see what their imp
    * Do the "floating" sections make it easy to distinguish between what you're currently viewing and what is coming next?
 
 ## Credits:
-   * [Bootstrap] (https://getbootstrap.com/)
-   * [ColorTools] (https://www.colortools.net/color_complementary.html) for picking complenmentary and contrasting colours
+   * [Bootstrap](https://getbootstrap.com/)
+   * [ColorTools](https://www.colortools.net/color_complementary.html) for picking complenmentary and contrasting colours
    * Tutor support from Code institute
       * Stephen for helping sovle font-load times and suggesting:
       ```
@@ -256,8 +256,8 @@ Whilst building the site I followed up with differnt users to see what their imp
       }
       ```
       * Johann & Miklos for suggestions around background images
-   * [w3schools] (https://w3schools.com) for learning and improving code
-   * [Css-Tricks] (https://css-tricks.com/snippets/css/css-box-shadow/) Shadowing code for nav bar and seperate sections: 
+   * [w3schools](https://w3schools.com) for learning and improving code
+   * [Css-Tricks](https://css-tricks.com/snippets/css/css-box-shadow/) Shadowing code for nav bar and seperate sections: 
       ```
       .shadow {
       -moz-box-shadow:    inset 0 0 10px #000000;
@@ -265,8 +265,8 @@ Whilst building the site I followed up with differnt users to see what their imp
       box-shadow:         inset 0 0 10px #000000;
       }
       ```
-   * [Stackoverflow] (https://stackoverflow.com/questions/54597965/how-do-i-get-nav-menu-to-collapse-on-mobile-but-not-on-desktop) Nav bar auto closing toggle 
-   * [Stackoverflow] (https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend) Spacing issue on   site
-   * [Web.dev] (https://web.dev/font-display/) Used `font-display: swap;` to improve lighthouse performance score
+   * [Stackoverflow](https://stackoverflow.com/questions/54597965/how-do-i-get-nav-menu-to-collapse-on-mobile-but-not-on-desktop) Nav bar auto closing toggle 
+   * [Stackoverflow](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend) Spacing issue on   site
+   * [Web.dev](https://web.dev/font-display/) Used `font-display: swap;` to improve lighthouse performance score
    * My mentor Spencer for helping me along the way on my first project.
    * Everyone who had a look and commented on peer to peer code review on slack
