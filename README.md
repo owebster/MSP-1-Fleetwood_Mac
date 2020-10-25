@@ -6,6 +6,8 @@ I settled on the idea of building a website for a band because of the current fr
 So this site was built to be simplistic to use, yet filled with the relevant details a user would want if they're visiting the stie for the first time or if they're coming back for more.
 In this document I will go through what I have built and why, including the ideas I want to implement in the future that I have not been able to so far due to the fact that I have not yet learnt certain languages / frameworks that I would need to include ideas into my first project.
 
+View a live version of my site [here](https://owebster.github.io/MSP-1-Fleetwood_Mac/)
+
 ## Table of content
    * UX 
    * UI
@@ -268,5 +270,6 @@ Whilst building the site I followed up with differnt users to see what their imp
    * [Stackoverflow](https://stackoverflow.com/questions/54597965/how-do-i-get-nav-menu-to-collapse-on-mobile-but-not-on-desktop) Nav bar auto closing toggle 
    * [Stackoverflow](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend) Spacing issue on   site
    * [Web.dev](https://web.dev/font-display/) Used `font-display: swap;` to improve lighthouse performance score
+   * [Favicon Generator](https://www.favicon-generator.org) to generate a favicon for the site
    * My mentor Spencer for helping me along the way on my first project.
    * Everyone who had a look and commented on peer to peer code review on slack
